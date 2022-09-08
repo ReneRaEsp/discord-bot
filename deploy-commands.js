@@ -10,6 +10,9 @@ const commands = [
   new SlashCommandBuilder()
     .setName('nombre')
     .setDescription('Responde con un nombre'),
+  new SlashCommandBuilder()
+    .setName('bleach')
+    .setDescription('Responde con el protagonista de bleach'),
 ].map((command) => command.toJSON())
 
 const rest = new REST({

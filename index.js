@@ -16,6 +16,8 @@ superBot.on('interactionCreate', async (interaction) => {
     await interaction.reply('pong pong')
   } else if (commandName === 'nombre') {
     await interaction.reply('René Ramírez')
+  } else if (commandName === 'bleach') {
+    await interaction.reply('Ichigo Kurosaki')
   }
 })
 
